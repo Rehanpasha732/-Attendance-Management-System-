@@ -1,0 +1,90 @@
+.cardFlex{
+    display: flex;
+    margin-top: 100px;
+}
+
+#frontCard{
+    width: 200px;
+    height: 300px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    color: blue;
+}
+
+
+#backCard{
+    width: 200px;
+    height: 300px;
+    border: 8px solid blue;
+    border-radius: 10px;
+    text-align: justify;
+    margin: auto;
+    color: blue;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+#cardHeader{
+    border-bottom: 4px solid blue;
+}
+
+#pic{
+    margin: auto;
+    border: 1px dotted grey;
+    padding: 40px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cardName{
+    color: black;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+#idNumber{
+    padding-bottom: 0px;
+    border-top: 1px solid blue;
+    border-left: 1px solid blue;
+    border-right: 1px solid blue;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 160px;
+    margin: auto;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+#courseName{
+    background-color: blue;
+    color: #fff;
+    margin-top: -12px;
+    padding-top: 0%;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#qrCode{
+    width: 80px;
+    height: 80px;
+}
+
+#sign{
+    margin-block-start: 4em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    color: black;
+}
+
+p{
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+}
