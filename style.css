@@ -23,6 +23,7 @@
 }
 
 .company_img{
+  margin-top: 30px;
     width: 400px;
 }
 
@@ -42,7 +43,7 @@ input {
     display: block;
     margin: 30px;
     border: none;
-    border-bottom: 2px solid #e7a5e2;
+    border-bottom: 2px solid #83b5a6;
     width: 300px;
 
 }
@@ -67,18 +68,20 @@ input:focus {
 }
 .signup {
     /* background-color: #6b3268; */
-    background-color: #1b2e35;
+    background-color: #83b5a6;
     color: var(--white);
     margin-left: 130px;
     padding: 10px;
+    border: none;
 }
 
 .signup:hover {
     /* background-color: #df8eda; */
-    background-color: #6b3268;
+    background-color: #83b5a6;
     transition: 0.3s;
-    color: rgb(255, 255, 255);
+    color: black;
     cursor: pointer;
+    border: none;
 }
 
 
@@ -114,8 +117,15 @@ body {
     font-size: 20px;
 }
 .header{
-    color:#17BCE8;
+    color:white;
     padding: 10px;
+    background-color: #83b5a6;
+    width: 20px;
+}
+.header:hover{
+  background-color: white;
+  color: #83b5a6;
+  transition: 0.5s;
 }
 .slidebar ul {
   position:relative;

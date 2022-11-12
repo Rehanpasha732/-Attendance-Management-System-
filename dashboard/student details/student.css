@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar {
+    background-color: #83b5a6;
+    /* width: 99%; */
+    height: 80px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+.card{
+    height: 350px;
+    width: 250px;
+    margin: 80px auto;
+    text-align: center;
+    border: 1px solid black;
+    padding-bottom: 50px;
+}
+
+img{
+    width: 150px;
+    margin-top: 5px;
+}
+
+
+.data{
+    margin: 20px;
+    padding: 10px;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.text_name{
+    font-weight: bold;
+}
+
+.card_main{
+    display: flex;
+    flex-wrap: wrap;
+}
