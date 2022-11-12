@@ -11,12 +11,22 @@
     color: white;
 }
 .card{
-    height: 350px;
-    width: 250px;
+    height: 400px;
+    width: 300px;
     margin: 80px auto;
     text-align: center;
     border: 1px solid black;
     padding-bottom: 50px;
+    border-radius: 20px;
+}
+.status{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-left: 15px;
+}
+.text_status{
+    margin-right: 10px;
 }
 
 img{
@@ -26,19 +36,25 @@ img{
 
 
 .data{
-    margin: 20px;
+    margin: -23px;
     padding: 10px;
 }
 
 .text{
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     margin-bottom: 30px;
 }
 .text_name{
     font-weight: bold;
 }
-
+#contain{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0px auto;
+    flex-wrap: wrap;
+}
 .card_main{
     display: flex;
     flex-wrap: wrap;
