@@ -42,8 +42,16 @@ window.onload = async() => {
                         <div class="text_data">  ${doc.data().studentphone}</div>
                     </div>
                     <div class="text">
-                        <div class="text_name">Email</div>
+                        <div class="text_name">CNIC</div>
                         <div class="text_data">  ${doc.data().studentemail}</div>
+                    </div>
+                    <div class="text">
+                        <div class="text_name">Course</div>
+                        <div class="text_data">  ${doc.data().studentcourse}</div>
+                    </div>
+                    <div class="text">
+                        <div class="text_name">Roll Number</div>
+                        <div class="text_data">  ${doc.data().studentrollnumber}</div>
                     </div>
                     <div class="status">
                         <div class="text_status">Status</div>

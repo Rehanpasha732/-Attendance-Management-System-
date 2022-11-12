@@ -76,12 +76,15 @@
 
 .form_drop_down {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     /* margin-right: 10px; */
     /* padding: 10px; */
 }
 
+.teacher{
+    margin-right: 10px;
+}
 .dropdown {
     margin-right: 30px;
 }
@@ -143,14 +146,10 @@ p {
      margin: 10px auto;
      text-align: center;
      padding: 10px;
-    /* margin: 10px auto; */
     background-color: #83b5a6;
-    /* padding: 10px; */
     border-radius: 5px;
-    /* margin-left: 300px; */
     width: 200px;
     color: #fff;
-    /* align-items: center; */
 }
 .submit_btn:hover{
     cursor: pointer;

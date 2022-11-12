@@ -29,6 +29,11 @@ let studentname = document.getElementById("name")
 let fathername = document.getElementById("father")
 let studentemail = document.getElementById("email")
 let studentphone = document.getElementById("phone")
+
+let rollnumber = document.getElementById("roll_number")
+let Course_Name = document.getElementById("Course_Name")
+
+
 let dateofbirth = document.getElementById("dob")
 let selectteacher = document.getElementById("selectteacher")
 let selecttimings = document.getElementById("selecttimings")
@@ -42,8 +47,12 @@ const sendstudentDAta = async () => {
             fathername: fathername.value,
             studentemail: studentemail.value,
             studentphone: studentphone.value,
+            studentrollnumber: rollnumber.value,
+            studentcourse: Course_Name.value,
+
             selecttimings: selecttimings.value,
             selecttimings: selecttimings.value,
+
         });
         swal("submit")
     }
